@@ -581,6 +581,15 @@ progress {
   height: auto;
 }
 
+.knowledges h2 {
+  margin-top: 2rem;
+}
+.knowhow {
+  display:flex;
+  flex-direction: row;
+
+}
+
 .figure {
   display: inline-block;
 }
