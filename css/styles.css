@@ -69,7 +69,7 @@ body {
 .vtimeline-content h3{font-size:1.5em;font-weight:300;color:#374054;display:inline-block;margin:0}
 .vtimeline-content h4{font-size:1.2em;font-weight:300;color:#7e8890;margin:0 0 15px 0}
 .vtimeline-content p{color:#74808a;font-size:0.9em;margin:0}
-.vtimeline-point{position:relative;display:block;vertical-align:top;margin-bottom:30px}
+.vtimeline-point{position:relative;display:block;vertical-align: top;margin-bottom:30px}
 .vtimeline-icon{position:relative;color:rgb(68, 185, 180);width:50px;height:50px;background:#bdc3c7;border-radius:50%;float:left;z-index:99;margin-left:280px}
 .vtimeline-icon i{display:block;font-size:7em;margin-top:10px}
 .vtimeline-date{width:260px;text-align:right;position:absolute;left:0;top:10px;font-weight:300;color:#374054}
@@ -5465,7 +5465,7 @@ textarea.form-control-lg {
   #experience-timeline:before,#experience-timeline:after{left:23px}
   .vtimeline-date{width:auto;text-align:left;position:relative;margin-bottom:15px;display:block;margin-left:70px}
   .vtimeline-icon{margin-left:0}
-  .vtimeline-content{margin-left:70px}}
+  .vtimeline-content{margin-left:70px}
 }
 @media (max-width: 991.98px) {
   .modal-fullscreen-lg-down {
