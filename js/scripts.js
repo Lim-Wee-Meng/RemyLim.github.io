@@ -7,6 +7,7 @@
 // Scripts
 // 
 
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -51,4 +52,40 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+
+});
+
+function closeModal7(){
+    document.getElementById("vid7").src = document.getElementById("vid7").src;
+    window.location.reload(); 
+}
+
+function closeModal8(){
+    document.getElementById("vid8").src =document.getElementById("vid8").src;
+    window.location.reload(); 
+}
+
+function closeModal9(){
+    document.getElementById("vid9").src = document.getElementById("vid9").src;
+    window.location.reload(); 
+}
+
+function closeFR(){
+    document.getElementById("vidFR").src = document.getElementById("vidFR").src;
+    window.location.reload(); 
+}
+
+function closeAI(){
+    document.getElementById("vidAI").src = document.getElementById("vidAI").src;
+    window.location.reload(); 
+}
+function closeVD(){
+    document.getElementById("vidVD").src = document.getElementById("vidVD").src;
+    window.location.reload(); 
+}
+
+
+$("#closeSimple").click(function() {
+    document.getElementById("modalImg").src = document.getElementById("modalImg").src;
+    window.location.reload();    
 });
