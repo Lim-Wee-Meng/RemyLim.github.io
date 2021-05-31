@@ -60,98 +60,19 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-#experience{
-  padding:50px 15px;
-  text-align:center;
-  border-bottom:1px solid #dcd9d9;
-}
-#experience h2{
-  color:#374054;
-}
-#experience-timeline{
-  margin:30px auto 0 auto;
-  position:relative;
-  max-width:1000px;
-}
-#experience-timeline:before{
-  position:absolute;
-  content:'';
-  top:0;
-  bottom:0;
-  left:303px;
-  right:auto;
-  height:100%;
-  width:3px;
-  background:#bdc3c7;
-  z-index:0;
-}
-#experience-timeline:after{
-  position:absolute;
-  content:'';
-  width:3px;
-  height:40px;
-  background:#bdc3c7;
-  background:linear-gradient(to bottom, #bdc3c7, rgba(189,195,199,0));
-  top:100%;
-  left:303px;
-}
-.vtimeline-content{
-  margin-left:350px;
-  background:#fff;
-  border:1px solid #e6e6e6;
-  padding:15px;
-  border-radius:3px;
-  text-align:left;
-}
-.vtimeline-content h3{
-  font-size:1.5em;
-  font-weight:300;
-  color:#374054;
-  display:inline-block;
-  margin:0;
-}
-.vtimeline-content h4{
-  font-size:1.2em;
-  font-weight:300;
-  color:#7e8890;
-  margin:0 0 15px 0;
-}
-.vtimeline-content p{
-  color:#74808a;
-  font-size:0.9em;
-  margin:0;
-}
-.vtimeline-point{
-  position:relative;
-  display:block;
-  vertical-align: top;
-  margin-bottom:30px;
-}
-.vtimeline-icon{
-  position:relative;
-  color:rgb(68, 185, 180);
-  width:50px;
-  height:50px;
-  background:#bdc3c7;
-  border-radius:50%;
-  float:left;
-  z-index:99;
-  margin-left:280px;
-}
-.vtimeline-icon i{
-  display:block;
-  font-size:7em;
-  margin-top:10px;
-}
-.vtimeline-date{
-  width:260px;
-  text-align:right;
-  position:absolute;
-  left:0;
-  top:10px;
-  font-weight:300;
-  color:#374054;
-}
+#experience{padding:50px 15px;text-align:center;border-bottom:1px solid #dcd9d9}
+#experience h2{color:#374054}
+#experience-timeline{margin:30px auto 0 auto;position:relative;max-width:1000px}
+#experience-timeline:before{position:absolute;content:'';top:0;bottom:0;left:303px;right:auto;height:100%;width:3px;background:#bdc3c7;z-index:0}
+#experience-timeline:after{position:absolute;content:'';width:3px;height:40px;background:#bdc3c7;background:linear-gradient(to bottom, #bdc3c7, rgba(189,195,199,0));top:100%;left:303px}
+.vtimeline-content{margin-left:350px;background:#fff;border:1px solid #e6e6e6;padding:15px;border-radius:3px;text-align:left}
+.vtimeline-content h3{font-size:1.5em;font-weight:300;color:#374054;display:inline-block;margin:0}
+.vtimeline-content h4{font-size:1.2em;font-weight:300;color:#7e8890;margin:0 0 15px 0}
+.vtimeline-content p{color:#74808a;font-size:0.9em;margin:0}
+.vtimeline-point{position:relative;display:block;vertical-align: top;margin-bottom:30px}
+.vtimeline-icon{position:relative;color:rgb(68, 185, 180);width:50px;height:50px;background:#bdc3c7;border-radius:50%;float:left;z-index:99;margin-left:280px}
+.vtimeline-icon i{display:block;font-size:7em;margin-top:10px}
+.vtimeline-date{width:260px;text-align:right;position:absolute;left:0;top:10px;font-weight:300;color:#374054}
 
 hr {
   margin: 1rem 0;
@@ -172,7 +93,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 700;
   line-height: 1.2;
 }
-
+.divider-custom a,i {
+  font-size: xx-large;
+ 
+}
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -5541,25 +5465,16 @@ textarea.form-control-lg {
     border-radius: 0;
   }
 
-  #experience-timeline:before,#experience-timeline:after{
-    left:23px;
-  }
-  .vtimeline-date{
-    width:auto;
-    text-align:left;
-    position:relative;
-    margin-bottom:15px;
-    display:block;
-    margin-left:70px;
-  }
-  .vtimeline-icon{
-    margin-left:0;
-  }
-  .vtimeline-content{
-    margin-left:70px;
-  }
+  #experience-timeline:before,#experience-timeline:after{left:23px}
+  .vtimeline-date{width:auto;text-align:left;position:relative;margin-bottom:15px;display:block;margin-left:70px}
+  .vtimeline-icon{margin-left:0}
+  .vtimeline-content{margin-left:70px}
 }
 @media (max-width: 991.98px) {
+
+  #vid7,#vid8,#vid9,#vidFR,#vidAI,#vidVD,#modalImg {
+    width:330px;
+  }
   .modal-fullscreen-lg-down {
     width: 100vw;
     max-width: none;
