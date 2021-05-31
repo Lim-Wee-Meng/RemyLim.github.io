@@ -49,6 +49,12 @@
   }
 }
 
+.col-lg-4 li {
+  color:indigo;
+  font-size: larger;
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
